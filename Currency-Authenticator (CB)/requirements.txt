@@ -3,7 +3,7 @@ gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-Werkzeug==0.15.5
+Werkzeug==3.0.1
 numpy>=1.9.2
 scipy>=0.15.1
 scikit-learn==0.22.1
@@ -14,3 +14,4 @@ flasgger==0.9.4
 
 
 
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
